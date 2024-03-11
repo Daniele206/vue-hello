@@ -7,6 +7,8 @@ createApp({
       text: 'hello word',
       img: '<img src="assets/img/01.webp" alt="">',
       time: '00:00:00',
+      text2: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, aliquam quisquam sint sequi architecto suscipit placeat itaque possimus id sunt.',
+      verde: 'green-text',
     };
   },
 
