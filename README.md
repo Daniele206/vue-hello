@@ -19,3 +19,5 @@ Ovviamente (oltre alla consegna e al bonus) siete liberi di aggiungere tutta rea
 2. Creare la struttura nel js per vue.
 3. Andare ad aggiungere un testo nei data.
 4. Richiamare il testo dai data nel HTML.
+5. Aggiungere come per il testo, l'HTML dell'img nei data.
+6. Richiamare la parte di HTML con v-html all'interno di un div.
