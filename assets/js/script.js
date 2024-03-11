@@ -8,7 +8,9 @@ createApp({
       img: '<img src="assets/img/01.webp" alt="">',
       time: '00:00:00',
       text2: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, aliquam quisquam sint sequi architecto suscipit placeat itaque possimus id sunt.',
+      text3: 'testo input',
       verde: 'green-text',
+      isRosso: false,
     };
   },
 
@@ -28,5 +30,5 @@ createApp({
   mounted(){
     this.clock();
     this.repetClock();
-  }
+  },
 }).mount('#app')
