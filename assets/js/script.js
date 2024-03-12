@@ -6,6 +6,7 @@ createApp({
     return{
       text: 'hello word',
       img: '<img src="assets/img/01.webp" alt="">',
+      img2: 'assets/img/01.webp',
       time: '00:00:00',
       text2: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, aliquam quisquam sint sequi architecto suscipit placeat itaque possimus id sunt.',
       text3: 'testo input',

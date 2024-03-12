@@ -17,7 +17,12 @@
     <h2 :class="verde">{{ text2 }}</h2>
     <h2 :class="{'red-text' : isRosso}">{{ text2 }}</h2>
     <button @click="isRosso = !isRosso" class="btn btn-primary">Cambia colore al testo</button>
+    <br>
+    <span class="fs-2">immagine con HTML dinamico</span>
     <div v-html="img" class="width"></div>
+    <span class="fs-2">immagine con src dinamico (post correzzione)</span>
+    <br>
+    <img :src="img2" alt="" class="width">
   </div>
   
   <script src="./assets/js/script.js"></script>
